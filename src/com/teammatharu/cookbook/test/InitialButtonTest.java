@@ -48,6 +48,34 @@ public class InitialButtonTest extends
 		solo.clickOnButton("Search Recipe");
 		solo.assertCurrentActivity("When Search Recipe button is clicked",
 				Sub_Meal_Page.class);
+		/*
+		 * // test to see if on clicking "Search Recipe" user get pointed to //
+		 * "Sub_Meal_Page" solo.clickOnButton("Search Recipe");
+		 * solo.assertCurrentActivity("When Search Recipe button is clicked",
+		 * Sub_Meal_Page.class);
+		 * 
+		 * // test to see if on clicking "Meals" user get pointed to //
+		 * "Sub_Meal_Page" solo.clickOnButton("Meals");
+		 * solo.assertCurrentActivity("When Meal button is clicked",
+		 * Sub_Meal_Page.class);
+		 * 
+		 * // test to see if on clicking "Courses" user get pointed to //
+		 * "Sub_Meal_Page" solo.clickOnButton("Courses");
+		 * solo.assertCurrentActivity("When Courses button is clicked",
+		 * Sub_Meal_Page.class);
+		 * 
+		 * // test to see if on clicking "Main Ingredients" user get pointed to
+		 * // "Sub_Meal_Page" solo.clickOnButton("Main Ingredients");
+		 * solo.assertCurrentActivity("When Main Ingredients button is clicked",
+		 * Sub_Meal_Page.class);
+		 * 
+		 * // test to see if on clicking "Occasions and Cooking Style" user get
+		 * // pointed to // "Sub_Meal_Page"
+		 * solo.clickOnButton("Occasions and Cooking Style");
+		 * solo.assertCurrentActivity(
+		 * "When Occasions and Cooking Style button is clicked",
+		 * Sub_Meal_Page.class);
+		 */
 
 	}
 }
